@@ -1,6 +1,4 @@
-﻿
-
-using DApp.Data.Entities;
+﻿using DApp.Data.Entities;
 using DApp.Data.Interfaces;
 
 namespace DApp.Data.Daos
