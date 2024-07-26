@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DApp.Data\DApp.Data.csproj" />
+  </ItemGroup>
+
 </Project>
