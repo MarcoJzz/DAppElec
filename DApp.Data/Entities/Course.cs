@@ -11,4 +11,4 @@ namespace DApp.Data.Entities
         public int Credits { get; set; }
     }
 }
-}
+

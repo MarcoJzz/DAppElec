@@ -1,5 +1,7 @@
 using DApp.Data.Entities;
+using DApp.Data.Exceptions;
 using DApp.Data.Context;
+using DApp.Data.Entities;
 using DApp.Data.Exceptions;
 using Xunit;
 
@@ -36,7 +38,7 @@ namespace DApp.Data.Test
             //Act
             int deptoId = 0;
 
-            string message = "El codigo del departamento es requerido.";
+            string message = "Se requiere codigo del departamento.";
 
 
             //Assert
@@ -56,7 +58,7 @@ namespace DApp.Data.Test
 
             // Act 
             Department department = null;
-            string message = "El objeto departamento no puede ser nulo.";
+            string message = "No puede ser nulo.";
 
             //Assert
 
@@ -78,7 +80,7 @@ namespace DApp.Data.Test
                 Name = null,
             };
 
-            string message = "El nombre del departamento es requerido.";
+            string message = "Se requiere el nombre el departamento";
 
             //Assert
 
@@ -100,7 +102,7 @@ namespace DApp.Data.Test
                 Name = "Depto 1",
             };
 
-            string message = "El departamento se encuentra registrado.";
+            string message = "El departamento esta registrado.";
 
             //Assert
 
